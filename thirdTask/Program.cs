@@ -32,34 +32,15 @@ int InputDayNumber()
 
 void ShowDayOfTheWeek(int day)
 {
-    if (day == 1)
+    if (day == 6 || day == 7)
     {
-        Console.WriteLine("Понедельник");
+        Console.WriteLine("Да");
     }
-    else if (day == 2)
+    else
     {
-        Console.WriteLine("Вторник");
+        Console.WriteLine("Нет");
     }
-    else if (day == 3)
-    {
-        Console.WriteLine("Среда");
-    }
-    else if (day == 4)
-    {
-        Console.WriteLine("Четверг");
-    }
-    else if (day == 5)
-    {
-        Console.WriteLine("Пятница");
-    }
-    else if (day == 6)
-    {
-        Console.WriteLine("Суббота - это выходной!");
-    }
-    else if (day == 7)
-    {
-        Console.WriteLine("Воскресенье - это выходной!");
-    }
+    
     
 }
 
